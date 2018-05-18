@@ -3,7 +3,8 @@ puts "Welcome to Zach's Calculator"
 print "Enter a symbol:"
 
 symbol = gets.to_s
-
+slash = "/"
+#added a variable for slash
 
 print "Enter a Value:"
 
@@ -13,9 +14,8 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
-puts symbol 
-puts "/"
-#do these print the same thing?
+puts (symbol == slash)
+#should be true
 
 if symbol.to_s == "/".to_s
 	print "inside the first if"
