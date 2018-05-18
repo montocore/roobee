@@ -2,9 +2,7 @@ puts "Welcome to Zach's Calculator"
 
 print "Enter a symbol:"
 
-symbol = gets.to_s
-slash = "/"
-#added a variable for slash
+symbol = gets.to_s.chomp
 
 print "Enter a Value:"
 
@@ -14,10 +12,7 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
-puts (symbol == slash)
-#should be true
-
-if symbol.to_s == "/".to_s
+if symbol == "/"
 	print "inside the first if"
 	puts first_num.to_s + " / " + second_num.to_s + " = " + (first_num / second_num).to_s
 end
