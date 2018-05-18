@@ -22,11 +22,11 @@ if symbol == "*"
 	puts first_num.to_s + " * " + second_num.to_s + " = " + (first_num * second_num).to_s
 end
 		
-if symbol == " + "
+if symbol == "+"
 	puts first_num.to_s + " + " + second_num.to_s + " = " + (first_num + second_num).to_s
 end	
 			
-if symbol == " - "
+if symbol == "-"
 	puts first_num.to_s + " - " + second_num.to_s + " = " + (first_num - second_num).to_s
 end
 
