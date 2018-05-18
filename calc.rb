@@ -13,22 +13,22 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
-if symbol == "/"
+if symbol.to_s == "/".to_s
 	  	print "inside the first if"
 	  	puts first_num.to_s + " / " + second_num.to_s + " = " + (first_num / second_num).to_s
 end
 
-	if symbol == "*"
-		print "inside second if"
-		puts first_num.to_s + " * " + second_num.to_s + " = " + (first_num * second_num).to_s
+if symbol == "*"
+	print "inside second if"
+	puts first_num.to_s + " * " + second_num.to_s + " = " + (first_num * second_num).to_s
 end
 		
 if symbol == " + "
-		puts first_num.to_s + " + " + second_num.to_s + " = " + (first_num + second_num).to_s
+	puts first_num.to_s + " + " + second_num.to_s + " = " + (first_num + second_num).to_s
 end	
 			
 if symbol == " - "
-		puts first_num.to_s + " - " + second_num.to_s + " = " + (first_num - second_num).to_s
+	puts first_num.to_s + " - " + second_num.to_s + " = " + (first_num - second_num).to_s
 end
 
 
