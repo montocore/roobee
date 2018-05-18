@@ -13,6 +13,8 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
+print (symbol.to_s == "/".to_s)
+
 if symbol.to_s == "/".to_s
 	print "inside the first if"
 	puts first_num.to_s + " / " + second_num.to_s + " = " + (first_num / second_num).to_s
