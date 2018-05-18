@@ -2,8 +2,8 @@ puts "Welcome to Zach's Calculator"
 
 print "Enter a symbol:"
 
-symbol = gets.to_c
-print symbol
+symbol = gets.to_s
+
 
 print "Enter a Value:"
 
@@ -13,20 +13,22 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
-if symbol.eql? " / "
-print "inside the first if"	puts first_num.to_s + " / " + second_num.to_s + " = " + (first_num / second_num).to_s
+if symbol == "/"
+	  	print "inside the first if"
+	  	puts first_num.to_s + " / " + second_num.to_s + " = " + (first_num / second_num).to_s
 end
-	
-	if symbol == " * "
+
+	if symbol == "*"
+		print "inside second if"
 		puts first_num.to_s + " * " + second_num.to_s + " = " + (first_num * second_num).to_s
 end
 		
-		if symbol == " + "
+if symbol == " + "
 		puts first_num.to_s + " + " + second_num.to_s + " = " + (first_num + second_num).to_s
 end	
 			
-			if symbol == " - "
-puts first_num.to_s + " - " + second_num.to_s + " = " + (first_num - second_num).to_s
+if symbol == " - "
+		puts first_num.to_s + " - " + second_num.to_s + " = " + (first_num - second_num).to_s
 end
 
 
