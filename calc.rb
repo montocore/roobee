@@ -13,8 +13,9 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
-print (symbol == symbol.to_s)
-#does this new line print true too?
+puts symbol 
+puts "/"
+#do these print the same thing?
 
 if symbol.to_s == "/".to_s
 	print "inside the first if"
