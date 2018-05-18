@@ -13,7 +13,8 @@ print "Enter one more:"
 
 second_num = gets.to_f
 
-print ("/".to_s == "/".to_s)
+print (symbol == symbol.to_s)
+#does this new line print true too?
 
 if symbol.to_s == "/".to_s
 	print "inside the first if"
